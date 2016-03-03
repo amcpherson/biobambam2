@@ -386,7 +386,7 @@ int main(int argc, char* argv[]) {
 		std::cerr << "Key=Value pairs:" << std::endl;
 		std::cerr << std::endl;
 
-		std::vector<std::pair<std::string,std::string>> V;
+		std::vector<std::pair<std::string,std::string> > V;
 
 		V.push_back(std::pair<std::string,std::string> ("level=<["+::biobambam2::Licensing::formatNumber(getDefaultLevel())+"]>", libmaus2::bambam::BamBlockWriterBaseFactory::getBamOutputLevelHelpText()));
 		V.push_back(std::pair<std::string,std::string> ("verbose=<["+::biobambam2::Licensing::formatNumber(getDefaultVerbose())+"]>", "print progress report"));
